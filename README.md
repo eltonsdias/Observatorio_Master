@@ -1,21 +1,31 @@
-# Observatório Banco Master
+# Observatório Banco Master — V4.1
 
-Dashboard HTML independente com índice documental, filtros, catálogo de contatos e linha do tempo. Edição de 03/11/2026.
+[Abrir o observatório](https://eltonsdias.github.io/Observatorio_Master/)
 
-## Publicar no GitHub Pages
+A V4.1 integra o modelo V3.1 fornecido pelo usuário ao explorador de mensagens: visual escuro, mapa como entrada principal, fichas individuais, cadastro ampliado e matriz documental.
 
-Em **Settings → Pages**, selecione **Deploy from a branch**, branch **main**, pasta **/ (root)** e clique em **Save**. O endereço esperado é https://eltonsdias.github.io/Observatorio_Master/ — disponível somente após ativação e publicação bem-sucedida.
+## Conteúdo
 
-GitHub Free exige repositório público para Pages. Repositórios privados exigem plano compatível. O site Pages normalmente fica público mesmo quando o repositório é privado. Não altere a visibilidade sem revisar o conteúdo e o histórico.
+- 49 nomes da V3.1 preservados, além de Luciano Huck e Ana Matos: 51 fichas.
+- Oito recortes individuais referenciados na decisão oficial da PET 15.556, com links às páginas.
+- 516 referências de mensagens e três sínteses comerciais.
+- Catálogo selecionado de 70 contatos do MasterWhats e cinco marcos oficiais.
+- Fluxo mapa → ficha → mensagem/documento, com retorno à ficha.
 
-Documentação: https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+## Classificação e fontes
 
-## Conteúdo e busca
+Alegações em decisão cautelar são distinguidas de menções e de classificações herdadas ainda não revalidadas. A rede organiza o cadastro em torno do caso; suas linhas não demonstram contato direto ou participação criminal. Descrições legadas aparecem em seção identificada na ficha, sem confirmar situação penal atual.
 
-`index.html` é a página inicial autônoma. Contém 516 referências documentais, três sínteses editoriais e catálogo selecionado de 70 contatos. Não contém conversas integrais. Para busca integral, use a importação local do export JSON público do MasterWhats na aba Mensagens. Dados importados ficam temporariamente na memória do navegador; não são enviados ao repositório.
+A decisão de 48 páginas é datada de 03/03/2026 (p. 47), com disponibilização em 04/03/2026. O andamento não é atualizado automaticamente. Extrações e transcrições do agregador não foram autenticadas pericialmente.
 
-## Limites
+## Busca integral
 
-Menções e relações comerciais não demonstram participação em crime. Páginas são referências declaradas pelo agregador; não constituem autenticação pericial. O recorte não é atualizado automaticamente. A publicação não cria sincronização com MasterWhats.
+O HTML não incorpora conversas integrais. Na aba Mensagens, importe o export JSON público indicado pelo painel. O arquivo fica temporariamente na memória do navegador e não é enviado ao repositório. A importação foi testada com 93.533 registros em 73 conversas; IDs repetidos são preservados e sinalizados.
 
-19 testes de lógica e eventos DOM passaram, incluindo importação real de 93.533 registros. A validação visual automatizada não foi concluída devido ao bloqueio da URL local no navegador integrado.
+## Validação
+
+27 testes locais de lógica e eventos DOM passaram, incluindo preservação do cadastro, ligações entre seções, importação real e filtros. O relatório local distingue esses testes da conferência visual online.
+
+## Hospedagem
+
+GitHub Pages: branch main, pasta raiz. index.html é a página inicial autônoma. As atualizações dos dados exigem revisão editorial; não há sincronização automática com MasterWhats.
